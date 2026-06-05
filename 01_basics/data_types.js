@@ -50,8 +50,8 @@ object
 
 // console.table([typeof(my_function),typeof(myobj),typeof(HERO)]);
 
--------------------------***MEMORY***----------------------------------------------------------------
-// STACK(PRIMITIVE) AND HEAP(NON - PRIMITIVE) 
+// -------------------------***MEMORY***----------------------------------------------------------------
+// // STACK(PRIMITIVE) AND HEAP(NON - PRIMITIVE) 
 
-// IN STACK WE HAVE COPY OF DATA 
-// BUT IN HEAP WE GET REFERENCE TO THE ORIGINAL LOCATION OF DATA
+// // IN STACK WE HAVE COPY OF DATA 
+// // BUT IN HEAP WE GET REFERENCE TO THE ORIGINAL LOCATION OF DATA
