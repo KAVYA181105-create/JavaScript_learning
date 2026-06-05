@@ -23,29 +23,35 @@ symbol=>unique
 object
 */
 
-// console.log(typeof("karan"));//string
-// console.log(typeof(null));//obeject
-// console.log(typeof(undefined));//undefined
-// //JAVASCRIPT IS DYNAMICALLY TYPED
+// // console.log(typeof("karan"));//string
+// // console.log(typeof(null));//obeject
+// // console.log(typeof(undefined));//undefined
+// // //JAVASCRIPT IS DYNAMICALLY TYPED
 
-//------reference type (NON PRIMITIVE )--------
-// ARRAYS , OBEJECTS , FUNCTIONS
+// //------reference type (NON PRIMITIVE )--------
+// // ARRAYS , OBEJECTS , FUNCTIONS
 
-const id = Symbol("123");
-const Another_id = Symbol("123");
-console.log([id,Another_id,id==Another_id]);
+// const id = Symbol("123");
+// const Another_id = Symbol("123");
+// console.log([id,Another_id,id==Another_id]);
 
-//array
-let HERO = ["karan", "vasu","max","kavya","vidhaan" ];
-//obeject
-let myobj ={
-   name:"karan",
-   roll_number : "24_cs_242",
-   age :20
-}
+// //array
+// let HERO = ["karan", "vasu","max","kavya","vidhaan" ];
+// //obeject
+// let myobj ={
+//    name:"karan",
+//    roll_number : "24_cs_242",
+//    age :20
+// }
 
-const my_function = function(){
-    console.log(" hello world /n ")
-}
+// const my_function = function(){
+//     console.log(" hello world /n ")
+// }
 
-console.table([typeof(my_function),typeof(myobj),typeof(HERO)]);
+// console.table([typeof(my_function),typeof(myobj),typeof(HERO)]);
+
+-------------------------***MEMORY***----------------------------------------------------------------
+// STACK(PRIMITIVE) AND HEAP(NON - PRIMITIVE) 
+
+// IN STACK WE HAVE COPY OF DATA 
+// BUT IN HEAP WE GET REFERENCE TO THE ORIGINAL LOCATION OF DATA
