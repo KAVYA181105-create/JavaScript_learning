@@ -9,8 +9,34 @@ if (true) {
 // , i mean that if we change in the local scope a variable discribed
 //  as var then it will also cahnge in global scope that is not a good practice
 
-console.log(a)
-console.log(b)
-console.log(c)
+// console.log(a)
+// console.log(b)
+// console.log(c)
 
 // for knowledge the global scope in browser and the global scope in the node are different 
+
+function one(){
+    let username = "karan";
+    function two(){
+        let course = "youtube";
+        // console.log(username);
+    }
+    // console.log(course);
+    two();
+}
+one();
+
+
+// ----------------------------*****INTERESTING**********-------------------------------
+
+function addOne(num){ // function can be used before declaration
+    return num +1 ;
+}
+let out =addOne(5);
+console.log(out)
+
+const addTwo = function(num){//function cannot be used before declaration
+    return num +2;
+}
+console.log(addTwo(5));
+addTwo(5);
